@@ -941,16 +941,7 @@
                         "__collapse": false
                     },
                     "id": "da35fcfa-23ba-4772-a71a-d03cc037ccfd"
-                },
-                {
-                    "command": "EVENT_TEXT",
-                    "args": {
-                        "text": [
-                            "Go to the next \nlevel once done."
-                        ],
-                        "avatarId": ""
-                    },
-                    "id": "820c70aa-0cf0-4a32-8d7b-cc118d373184"
+
                 }
             ],
             "playerHit1Script": [],
