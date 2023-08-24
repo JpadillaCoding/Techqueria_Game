@@ -1344,31 +1344,7 @@
             "symbol": "scene_2",
             "x": 264,
             "y": 36,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "42d2505b-87cb-46ce-b77a-2a859b5d211d",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_3",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "0478d7e9-381b-4bfe-82f1-7caeeb7b1e1e",
-                    "x": 16,
-                    "y": 8
-                }
-            ],
+            "actors": [],
             "triggers": [],
             "script": [
                 {
