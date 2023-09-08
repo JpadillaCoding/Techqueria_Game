@@ -1353,12 +1353,23 @@
                             "command": "EVENT_IF_ACTOR_AT_POSITION",
                             "args": {
                                 "actorId": "d283db0d-2ccf-47b0-814f-ab8bf8905910",
-                                "x": 19,
+                                "x": 18,
                                 "y": 17,
                                 "__collapseElse": false
                             },
                             "children": {
-                                "true": [],
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Success!\n"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "423945cf-f201-4c8e-bdf3-8557c4c55a8f"
+                                    }
+                                ],
                                 "false": [
                                     {
                                         "command": "EVENT_ACTOR_PUSH",
@@ -1372,7 +1383,7 @@
                                         "command": "EVENT_IF_ACTOR_AT_POSITION",
                                         "args": {
                                             "actorId": "d283db0d-2ccf-47b0-814f-ab8bf8905910",
-                                            "x": 19,
+                                            "x": 18,
                                             "y": 17,
                                             "__collapseElse": true
                                         },
@@ -1418,7 +1429,7 @@
                             "type": "number",
                             "value": 1
                         },
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "b325818f-b6e7-4467-bd8a-d66e1fc2dada"
                 },
@@ -3163,7 +3174,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 373,
+        "worldScrollX": 342,
         "worldScrollY": 0,
         "zoom": 196.05728618055582,
         "customColorsEnabled": true,

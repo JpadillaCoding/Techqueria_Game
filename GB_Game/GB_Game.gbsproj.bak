@@ -1352,7 +1352,7 @@
                         {
                             "command": "EVENT_IF_ACTOR_AT_POSITION",
                             "args": {
-                                "actorId": "$self$",
+                                "actorId": "d283db0d-2ccf-47b0-814f-ab8bf8905910",
                                 "x": 19,
                                 "y": 17,
                                 "__collapseElse": false
@@ -1371,11 +1371,10 @@
                                     {
                                         "command": "EVENT_IF_ACTOR_AT_POSITION",
                                         "args": {
-                                            "actorId": "$self$",
+                                            "actorId": "d283db0d-2ccf-47b0-814f-ab8bf8905910",
                                             "x": 19,
                                             "y": 17,
-                                            "__collapseElse": true,
-                                            "__collapse": false
+                                            "__collapseElse": true
                                         },
                                         "children": {
                                             "true": [
@@ -1383,23 +1382,16 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Success!"
+                                                            "Success!\n"
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "4bb12508-1779-4c29-92d4-9ed14fd883b2"
-                                                },
-                                                {
-                                                    "command": "EVENT_DEC_VALUE",
-                                                    "args": {
-                                                        "variable": "0"
-                                                    },
-                                                    "id": "093c392b-8d90-4332-b1d7-71e2c85b85f2"
+                                                    "id": "8b03b6d7-1c4f-400c-984b-54e28adc4e6d"
                                                 }
                                             ],
                                             "false": []
                                         },
-                                        "id": "21acd2b3-9407-46ec-887d-d4ea015f9371"
+                                        "id": "d26264b1-866d-4bd0-86e3-60006bb7d1e9"
                                     }
                                 ]
                             },
@@ -1476,7 +1468,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Push the rock to the \nbottom right."
+                            "Push the rock to \nthe bottom right."
                         ],
                         "avatarId": ""
                     },
